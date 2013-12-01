@@ -61,7 +61,7 @@
   //CGContextSetCharacterSpacing (context, 10); // 4
   CGContextSetTextDrawingMode(context, kCGTextFillStroke);
   NSInteger hour12 = [_clock hour] % 12;
-  NSString *hourString = [NSString stringWithFormat:@"%d", hour12];
+  NSString *hourString = [NSString stringWithFormat:@"%ld", hour12];
   CGContextSetBlendMode(context, kCGBlendModeExclusion);
   CGContextShowTextAtPoint(context, 40, 40, [hourString cStringUsingEncoding:NSUTF8StringEncoding], 2);
   UIGraphicsPopContext();
