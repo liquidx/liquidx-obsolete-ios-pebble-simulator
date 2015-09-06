@@ -27,6 +27,7 @@
 		64A44E3018498F030042FD02 /* CLKDialsClockFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A44E2F18498F030042FD02 /* CLKDialsClockFaceView.m */; };
 		64A44E33184992040042FD02 /* CLKClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A44E32184992040042FD02 /* CLKClock.m */; };
 		64A44E361849A1E80042FD02 /* CLKDigitClockFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A44E351849A1E80042FD02 /* CLKDigitClockFaceView.m */; };
+		64A44E39184ADC3B0042FD02 /* CLKFontDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A44E38184ADC3B0042FD02 /* CLKFontDumper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		64A44E32184992040042FD02 /* CLKClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLKClock.m; sourceTree = "<group>"; };
 		64A44E341849A1E80042FD02 /* CLKDigitClockFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLKDigitClockFaceView.h; sourceTree = "<group>"; };
 		64A44E351849A1E80042FD02 /* CLKDigitClockFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLKDigitClockFaceView.m; sourceTree = "<group>"; };
+		64A44E37184ADC3B0042FD02 /* CLKFontDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLKFontDumper.h; sourceTree = "<group>"; };
+		64A44E38184ADC3B0042FD02 /* CLKFontDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLKFontDumper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 				64A44E2F18498F030042FD02 /* CLKDialsClockFaceView.m */,
 				64A44E341849A1E80042FD02 /* CLKDigitClockFaceView.h */,
 				64A44E351849A1E80042FD02 /* CLKDigitClockFaceView.m */,
+				64A44E37184ADC3B0042FD02 /* CLKFontDumper.h */,
+				64A44E38184ADC3B0042FD02 /* CLKFontDumper.m */,
 				64A44E07184965A80042FD02 /* Images.xcassets */,
 				64A44DF3184965A80042FD02 /* Supporting Files */,
 			);
@@ -285,6 +290,7 @@
 				64A44E361849A1E80042FD02 /* CLKDigitClockFaceView.m in Sources */,
 				64A44E2918496E170042FD02 /* CLKCircleClockFaceView.m in Sources */,
 				64A44DFD184965A80042FD02 /* CLKAppDelegate.m in Sources */,
+				64A44E39184ADC3B0042FD02 /* CLKFontDumper.m in Sources */,
 				64A44E06184965A80042FD02 /* CLKViewController.m in Sources */,
 				64A44E3018498F030042FD02 /* CLKDialsClockFaceView.m in Sources */,
 			);

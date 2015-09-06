@@ -8,6 +8,7 @@
 
 #import "CLKAppDelegate.h"
 #import "CLKViewController.h"
+#import "CLKFontDumper.h"
 
 @implementation CLKAppDelegate
 
@@ -16,6 +17,14 @@
   self.window.backgroundColor = [UIColor blackColor];
   self.window.rootViewController = [[CLKViewController alloc] init];
   [self.window makeKeyAndVisible];
+
+  UIFont *font = [UIFont fontWithName:@"DINCondensed-Bold" size:64];
+  NSString *directory = [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject];
+  NSString *characters = @"1234567890";
+
+  [CLKFontDumper outputRasterizedFontWithCharacters:characters
+                                           withFont:font
+                                    outputDirectory:directory];
   return YES;
 }
 							
