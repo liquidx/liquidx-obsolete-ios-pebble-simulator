@@ -3,3 +3,5 @@ Before creating new pebble faces in C, I would prototype them in an iOS app to g
 If I were to do this today, I'd probably just use the canvas on the web.
 
 See [liquidx-obselete-pebble-faces](https://github.com/liquidx/liquidx-obselete/pebble-faces)
+
+![ClockFace](https://github.com/liquidx/liquidx-obsolete-ios-pebble-simulator/raw/master/screenshot.png)
